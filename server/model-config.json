@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "user": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "role": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "expedient": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "dictum": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "act": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "providence": {
+    "dataSource": "postgres",
+    "public": true
+  }
+}

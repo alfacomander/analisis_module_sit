@@ -1,0 +1,12 @@
+{
+  "postgres": {
+    "host": "/var/run/postgresql/",
+    "port": 5432,
+    "url": "postgres://sit:sit@localhost/sit",
+    "database": "sit",
+    "password": "sit",
+    "name": "postgres",
+    "user": "sit",
+    "connector": "postgresql"
+  }
+}
