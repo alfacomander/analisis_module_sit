@@ -1,4 +1,4 @@
-FROM ceborz/postgres:latest
+FROM ceborz/postgres
 MAINTAINER Ricardo Zepeda <richie.cebond@hotmail.com>
 
 # Add the PostgreSQL PGP key to verify their Debian packages.
