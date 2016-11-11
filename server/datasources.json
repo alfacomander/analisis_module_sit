@@ -1,8 +1,8 @@
 {
   "postgres": {
-    "host": "${DB_PORT}",
-    "port": "${DB_PORT}",
-    "url": "postgres://sit:sit@${DB_PORT}/sit",
+    "host": "sdfsdfsdfds",
+    "port": "5432",
+    "url": "postgres://sit:sit@sdfsdfdsf/sit",
     "database": "sit",
     "password": "sit",
     "name": "postgres",
