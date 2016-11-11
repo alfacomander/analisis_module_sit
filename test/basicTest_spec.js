@@ -1,7 +1,8 @@
+
 var frisby = require('frisby');
 frisby.create('TEST ACT GET')
   .get('http://localhost:3000/api/acts')
-  .expectStatus(200)
+  .expectStatus(100)
 .toss();
 frisby.create('TEST DICTUM GET')
   .get('http://localhost:3000/api/dicta')
