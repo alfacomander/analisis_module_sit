@@ -2,4 +2,4 @@ sut:
   build: .
   ports:
     - "3000:3000"
-entrypoint: 'jasmine-node spec'
+entrypoint: jasmine-node spec
