@@ -11,5 +11,8 @@ RUN npm install
 # Bundle app source
 COPY . /home/ubuntu/sit/analisis_module_sit
 
+# Install test tools
+CMD ["npm", "install", "-g", "jasmine-node"]
+
 EXPOSE 3000
 CMD [ "npm", "start" ]
