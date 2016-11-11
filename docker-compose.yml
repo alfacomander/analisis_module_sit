@@ -7,6 +7,5 @@ services:
       - "3000:3000"
   db:
     image: eg_postgresql
-    hostname: db
     expose:
       - "5432"
