@@ -4,9 +4,8 @@ services:
     build: .
     ports:
       - "3000:3000"
-    links:
-      - db
+    depends_on:
+      - "db"
+    entrypoint: "wait-for-it.sh db:5432"
   db:
     image: eg_postgresql
-    expose:
-      - "5432"
