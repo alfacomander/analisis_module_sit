@@ -11,5 +11,5 @@ RUN npm install
 # Bundle app source
 COPY . /home/ubuntu/sit/analisis_module_sit
 
-EXPOSE 8080
+EXPOSE 3000
 CMD [ "npm", "start" ]
