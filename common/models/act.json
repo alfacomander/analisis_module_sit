@@ -6,12 +6,40 @@
     "validateUpsert": true
   },
   "properties": {
+    "entry_date": {
+      "type": "date",
+      "required": true
+    },
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "received_date": {
+      "type": "date",
+      "required": true
+    },
+    "case_number": {
+      "type": "number",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
+    "type": {
+      "type": "choice",
+      "required": true
+    },
+    "line_number": {
+      "type": "number",
+      "required": true
+    },
+    "range_date": {
+      "type": "date",
+      "required": true
+    },
+    "folio_number": {
+      "type": "number",
       "required": true
     }
   },

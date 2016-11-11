@@ -6,12 +6,32 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "case_number": {
+      "type": "number",
+      "required": true
+    },
+    "subject": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "reference_ant": {
       "type": "string",
+      "required": true
+    },
+    "documental_ant": {
+      "type": "string",
+      "required": true
+    },
+    "technical_consideration": {
+      "type": "string",
+      "required": true
+    },
+    "technical_dictum": {
+      "type": "string",
+      "required": true
+    },
+    "aproved_by": {
+      "type": "date",
       "required": true
     }
   },

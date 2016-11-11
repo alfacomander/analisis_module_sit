@@ -6,12 +6,28 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "case_number": {
+      "type": "number",
+      "required": true
+    },
+    "correlative": {
+      "type": "number",
+      "required": true
+    },
+    "solicitante": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "subject": {
       "type": "string",
+      "required": true
+    },
+    "observation": {
+      "type": "string",
+      "required": false
+    },
+    "entry_date": {
+      "type": "date",
       "required": true
     }
   },

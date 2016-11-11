@@ -24,6 +24,7 @@
   "devDependencies": {
     "eslint": "^2.13.1",
     "eslint-config-loopback": "^4.0.0",
+    "frisby": "^0.8.5",
     "nsp": "^2.1.0"
   },
   "repository": {

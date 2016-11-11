@@ -6,11 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
+    "case_number": {
+      "type": "number",
       "required": true
     },
-    "description": {
+    "document": {
       "type": "string",
       "required": true
     }
