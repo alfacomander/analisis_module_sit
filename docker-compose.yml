@@ -1,13 +1,13 @@
 version: "2"
 services:
+  db:
+    image: eg_postgresql
+    hostname: db
+    expose:
+      - "5432"
   loopback:
     build: .
     ports:
       - "3000:3000"
     links:
       - db
-  db:
-    image: eg_postgresql
-    hostname: db
-    expose:
-      - "5432"
