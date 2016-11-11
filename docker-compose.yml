@@ -1,9 +1,9 @@
 version: "2"
 
 services:
-  loopback:
-    build: .
   db:
     image: eg_postgresql
     expose:
       - "5432"
+  loopback:
+    build: .
