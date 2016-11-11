@@ -12,8 +12,4 @@ RUN npm install
 COPY . /home/ubuntu/sit/analisis_module_sit
 
 EXPOSE 8080
-# CMD [ "npm", "start" ]
-# CMD node .
-RUN [ "sh", "-c", "DB_PORT_5432_TCP_ADDR=$DB_PORT_5432_TCP_ADDR node ." ]
-# CMD DB_PORT_5432_TCP_ADDR=${DB_PORT_5432_TCP_ADDR} node .
-# CMD echo ${DB_PORT_5432_TCP_ADDR}
+CMD [ "npm", "start" ]
