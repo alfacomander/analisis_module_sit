@@ -8,11 +8,10 @@ WORKDIR /home/ubuntu/sit/analisis_module_sit
 COPY package.json /home/ubuntu/sit/analisis_module_sit/
 RUN npm install
 
+RUN npm install -g jasmine-node
+
 # Bundle app source
 COPY . /home/ubuntu/sit/analisis_module_sit
-
-# Install test tools
-CMD ["npm", "install", "-g", "jasmine-node"]
 
 EXPOSE 3000
 CMD [ "npm", "start" ]
