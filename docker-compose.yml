@@ -1,0 +1,11 @@
+version: "2"
+services:
+  loopback:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "db"
+    entrypoint: ./wait-for-it.sh db:5432
+  db:
+    image: eg_postgresql
