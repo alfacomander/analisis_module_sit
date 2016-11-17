@@ -1,0 +1,19 @@
+{
+  "config": {
+    "target": "https://localhost:3000/api",
+    "phases": [
+      {"duration": 60, "arrivalRate": 5}
+    ],
+  },
+  "scenarios": [
+    {
+      "name": "Test",
+      "flow": [
+        {"get": {
+          "url": "/acts"
+         }
+        }
+      ]
+    }
+  ]
+}
