@@ -14,4 +14,4 @@ RUN npm install -g jasmine-node
 COPY . /home/ubuntu/sit/analisis_module_sit
 
 EXPOSE 3000:3000
-CMD [ "npm", "start" ]
+CMD ["node", "--prof", "."]
