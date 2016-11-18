@@ -3,7 +3,7 @@
     "target": "https://localhost:3000/api",
     "phases": [
       {"duration": 60, "arrivalRate": 5}
-    ],
+    ]
   },
   "scenarios": [
     {
@@ -11,6 +11,26 @@
       "flow": [
         {"get": {
           "url": "/acts"
+         }
+        },
+        {"get": {
+          "url": "/dicta"
+         }
+        },
+        {"get": {
+          "url": "/expedients"
+         }
+        },
+        {"get": {
+          "url": "/providences"
+         }
+        },
+        {"get": {
+          "url": "/roles"
+         }
+        },
+        {"get": {
+          "url": "/users"
          }
         }
       ]
