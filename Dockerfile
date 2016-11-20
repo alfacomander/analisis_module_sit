@@ -13,5 +13,4 @@ RUN npm install -g jasmine-node
 # Bundle app source
 COPY . /home/ubuntu/sit/analisis_module_sit
 
-EXPOSE 3001:3001
 CMD ["node", "--prof", "."]
