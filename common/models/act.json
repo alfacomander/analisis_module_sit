@@ -27,7 +27,7 @@
       "required": true
     },
     "type": {
-      "type": "choice",
+      "type": "string",
       "required": true
     },
     "line_number": {
