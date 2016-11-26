@@ -12,27 +12,27 @@
     },
     "subject": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "reference_ant": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "documental_ant": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "technical_consideration": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "technical_dictum": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "aproved_by": {
       "type": "date",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
